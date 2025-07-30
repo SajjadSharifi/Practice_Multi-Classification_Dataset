@@ -1,0 +1,129 @@
+{
+  "nodes": [
+    {
+      "type": "text",
+      "id": "d115513d-de4d-4a04-b633-323dcdb21e89",
+      "x": 171,
+      "y": 191,
+      "width": 260,
+      "height": 80,
+      "text": "1. store all file names in variable"
+    },
+    {
+      "type": "text",
+      "id": "2ace01ce-07ae-4977-9ee4-1a4420a64f1f",
+      "x": 494,
+      "y": 190,
+      "width": 260,
+      "height": 80,
+      "text": "2. open path_files in loop"
+    },
+    {
+      "type": "text",
+      "id": "d229015f-0444-4469-9533-e954c59b07d3",
+      "x": 796,
+      "y": 187,
+      "width": 260,
+      "height": 80,
+      "text": "3. change column names "
+    },
+    {
+      "type": "text",
+      "id": "1aa926b6-66ec-497f-af65-5879eeac07c7",
+      "x": 786,
+      "y": 323,
+      "width": 260,
+      "height": 80,
+      "text": "4. make a combined_lable column"
+    },
+    {
+      "type": "text",
+      "id": "5d1a3b81-3470-4a8d-960e-6028bc99860c",
+      "x": 345,
+      "y": 330,
+      "width": 370,
+      "height": 81,
+      "text": "5. store combined_lable and file_number in dictionary variable called: new_csv_value\nwe can do this by using multi-processing"
+    },
+    {
+      "type": "text",
+      "id": "e819cc97-3cd1-4d5f-a20d-9db965f41bb7",
+      "x": 26,
+      "y": 333,
+      "width": 260,
+      "height": 81,
+      "text": "6. make a csv file and store the new_csv_value in it. "
+    },
+    {
+      "type": "text",
+      "id": "8995f3c2-96a8-4c94-ab59-3d628b1d15bc",
+      "x": 14.200000000000045,
+      "y": 474,
+      "width": 423,
+      "height": 64,
+      "text": "7. now let's group the entire file so we would have simpler and orginized csv file named: grouped_final"
+    }
+  ],
+  "edges": [
+    {
+      "id": "b6ae8eb5-7bd3-4f26-8adf-62d402cce216",
+      "fromNode": "d115513d-de4d-4a04-b633-323dcdb21e89",
+      "fromSide": "right",
+      "toNode": "2ace01ce-07ae-4977-9ee4-1a4420a64f1f",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "style": "solid",
+      "shape": "curved"
+    },
+    {
+      "id": "f6db1f2a-2c25-4ed6-b9bc-f683b46f7fb4",
+      "fromNode": "2ace01ce-07ae-4977-9ee4-1a4420a64f1f",
+      "fromSide": "right",
+      "toNode": "d229015f-0444-4469-9533-e954c59b07d3",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "style": "solid",
+      "shape": "curved"
+    },
+    {
+      "id": "b4b7b3ad-a1e4-4e51-9301-36114f1f2a6b",
+      "fromNode": "d229015f-0444-4469-9533-e954c59b07d3",
+      "fromSide": "bottom",
+      "toNode": "1aa926b6-66ec-497f-af65-5879eeac07c7",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "style": "solid",
+      "shape": "curved"
+    },
+    {
+      "id": "b94ab91b-e167-4733-a90d-614671be2bdc",
+      "fromNode": "1aa926b6-66ec-497f-af65-5879eeac07c7",
+      "fromSide": "left",
+      "toNode": "5d1a3b81-3470-4a8d-960e-6028bc99860c",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "style": "solid",
+      "shape": "curved"
+    },
+    {
+      "id": "fdaa5407-8507-46dc-9ec7-3a01afbaaf9a",
+      "fromNode": "5d1a3b81-3470-4a8d-960e-6028bc99860c",
+      "fromSide": "left",
+      "toNode": "e819cc97-3cd1-4d5f-a20d-9db965f41bb7",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "style": "solid",
+      "shape": "curved"
+    },
+    {
+      "id": "2a89e3cc-de3c-4639-89b4-283e0776f1b9",
+      "fromNode": "e819cc97-3cd1-4d5f-a20d-9db965f41bb7",
+      "fromSide": "bottom",
+      "toNode": "8995f3c2-96a8-4c94-ab59-3d628b1d15bc",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "style": "solid",
+      "shape": "curved"
+    }
+  ]
+}
